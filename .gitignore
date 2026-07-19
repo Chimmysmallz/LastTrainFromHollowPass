@@ -1,0 +1,17 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node (only if you add a build pipeline later)
+node_modules/
+npm-debug.log*
+
+# Local build scratch / raw assets (the game HTML already embeds everything)
+working/
+*.tmp
+
+# Logs
+*.log
